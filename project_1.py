@@ -1,3 +1,9 @@
+#Make a adventure game with levels
+#add questions
+#use if/elif/else 
+#add a weapon dynamic to the game 
+# level added (2)
+# goal 10 levels 
 
 
 name = input("Hey type your name: ").capitalize()
@@ -10,30 +16,41 @@ play = should_we_play == 'yes'
 
 
 if play:
-    print("We are gonna play")
+    print("Great lets start this fun adventure of mini quizes!")
 
-    direction = input('Do you want to go left or right?(left/right)? ').lower()
-    weapon = input('sword/gun').lower
-    if direction ==  'left':
-        print('OOPS! wrong choice retry')
-    elif direction == 'right':
-        print('Nice choice. Now choose again')
-        new_choice = input('left/right')
-        if new_choice == 'left':
-            print('Nice you found the way out')
-            print('Next level!')
-            new_direction = input('left/right?')
-            if new_direction == 'right':
-                print('Nice you made the correct choice again')
-                print('Congrats. you have leveled up and unlocked new feature.')
-                print('Choose a weapon now, sword/gun?')
-                  
-                if weapon == 'sword':
-                     print('It seems like you like the sword. With this your path sahll get more diffcult!')
-                elif weapon == 'gun':
-                     print("Nice choice a mag of a gun can take you far")
-        elif new_choice == 'right':
-            print('OOPS! wrong choice you fell off the cliff!')    
+
+
+
+    #Level 1-
+    choice_1 = input('Do you want to enter the dark cave? ').lower()
+    if choice_1 ==  'no':
+        print('Lets come back another day.')
+    elif choice_1 == 'yes':
+        print('Nice! I see that you are very brave')
+
+
+
+        #Level 2-
+        choice_2 = input('Do you want to open the mysterious chest? ').strip().lower()
+        if choice_2 == 'yes':
+            print('WOW you just found 2 weapos!')
+            weapon = input("What would you like to play with (gun/sword)? ").strip().lower()
+            if weapon == 'gun':
+                print("You picked the gun. Good range!")
+            elif weapon == 'sword':
+                print("You picked the sword. Strong up close!")
+            else:
+                print("That's not a valid weapon. You move on without a weapon.")
+                weapon = None
+        elif choice_2 == 'no':
+            print('. There might be danger ahead')
+
+            #Level 3- 
+
+
+            #print('Welecome to the next level. Now that you have a weapon be aware of the beasts!')
+                
+            
             
 
         
@@ -43,3 +60,8 @@ if play:
 
 else:
     print("We are Not going to play!")
+            
+
+        
+            
+   
