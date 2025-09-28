@@ -1,11 +1,26 @@
-#Day 1- Make a adventure game
--python-adventure-game
--a simple text-based adventure game in Python.
--Bulding a concept of a mini simple quiz game
--There will be total 10 levels
+# 🎮 Python Adventure Game
 
+A simple **text-based adventure game** in Python.  
+The player explores caves, chooses weapons, and fights beasts across 10 levels.  
 
-# Day 2-
--made the first 2 level(subject to change)
--added a new weapon class
--adding weapon to create new beast variables
+---
+
+## 📝 Development Log
+
+**Day 1**  
+- Started project: *adventure game concept*  
+- Built base structure for a text-based quiz-style adventure  
+- Planned 10 levels  
+
+**Day 2**  
+- Implemented first 2 levels (subject to change)  
+- Added weapon choice system (gun/sword)  
+- Started planning beast battles  
+
+---
+
+## 🚀 How to Play
+1. Run the game with Python:
+   ```bash
+   python adventure_game.py
+
