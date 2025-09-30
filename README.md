@@ -98,10 +98,6 @@ Randomize questions for replayability.
 
 Convert to a GUI (Tkinter or Pygame).
 
-👤 Author
-
-Built by Nafis Hossain as a beginner Python project for learning, practice, and fun.
-
 Add random events and multiple endings
 
 Add a replay option at the end
