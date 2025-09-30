@@ -25,7 +25,7 @@ should_we_play = input("Do you want to play? (yes/no) ").strip().lower()
 play = (should_we_play == "yes")
 
 if not play:
-    print("We are Not going to play!")
+    print("ok lets come back another day!".title())
     exit()
 
 print("Great lets start this fun adventure of mini quizzes!".title())
