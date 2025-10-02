@@ -5,7 +5,7 @@ Explore a mysterious cave, battle strange creatures, and face a dragon in the fi
 
 🎮 How to Play
 
-Make sure you have Python 3 installed.
+Make sure you have Python 3.x installed.
 
 Clone or download this repository.
 
@@ -18,15 +18,14 @@ python adventure_game.py
 
 Follow the prompts:
 
-Answer yes/no to questions.
+Answer yes/no questions
 
-Choose your weapon: gun or sword.
+Choose your weapon (gun or sword)
 
-Answer Python quiz questions to defeat cave creatures.
+Answer Python quiz questions to defeat cave creatures
 
 ✨ Features
-
-10 Levels of Adventure:
+🔟 Levels of Adventure
 
 Bats
 
@@ -46,43 +45,45 @@ Cave Harvestmen
 
 Cave Millipedes
 
-Dragon (Final Boss with 5-question challenge)
+🐲 Dragon (Final Boss with 5-question challenge)
 
-Weapon System: Pick between a gun or a sword.
+⚔️ Combat System
 
-Quiz Combat: Answer Python questions to deal damage.
+Weapon choice: Gun or Sword
 
-Scoring System: +10 points per correct answer.
+Quiz Combat: Answer Python questions to deal damage
 
-Mistake Tracking: 3 mistakes = Game Over.
+Scoring: +10 points per correct answer
 
-Time Delay: 3-second pause between levels for pacing.
+Mistakes: 3 wrong = Game Over
 
-Epic Intro Banner to set the atmosphere.
+Time delay: 3-second pause between levels for pacing
+
+Epic Intro Banner to set the atmosphere
 
 🧠 Example Python Questions
 
-Can a Python variable name start with a number? (No)
+Can a Python variable name start with a number? → No
 
-Is Python case-sensitive when it comes to variable names? (Yes)
+Is Python case-sensitive for variable names? → Yes
 
-Is indentation required in Python code blocks? (Yes)
+Is indentation required in Python code blocks? → Yes
 
-Does Python use # for comments? (Yes)
+Does Python use # for comments? → Yes
 
-Does len('abc') return 3? (Yes)
+Does len('abc') return 3? → Yes
 
-Is None equal to 0 in Python? (No)
+Is None equal to 0 in Python? → No
 
-Can a for loop iterate over a list in Python? (Yes)
+Can a for loop iterate over a list in Python? → Yes
 
-…and more up to the dragon fight!
+…and many more until you face the dragon!
 
 📈 Scoring & Mistakes
 
-Correct answer → +10 points
+✅ Correct answer → +10 points
 
-Wrong answer → +1 mistake
+❌ Wrong answer → +1 mistake
 
 3 mistakes → Game Over
 
@@ -90,17 +91,15 @@ Final score shown at the end
 
 🚀 Future Improvements
 
-Add a Replay option (restart game without re-running).
+Add a Replay option (restart game without re-running)
 
-Add difficulty modes (easy: 5 strikes, hard: 2 strikes).
+Add difficulty modes (easy: 5 strikes, hard: 2 strikes)
 
-Randomize questions for replayability.
+Randomize questions for replayability
 
-Convert to a GUI (Tkinter or Pygame).
+Convert to a GUI (Tkinter or Pygame)
 
 Add random events and multiple endings
 
-Add a replay option at the end
-
-Convert to a GUI (Tkinter or Pygam
+👨‍💻 Author: Nafis Hossain
 
