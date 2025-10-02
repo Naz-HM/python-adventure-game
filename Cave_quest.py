@@ -5,7 +5,7 @@ import time  # for delays
 # Game Intro Header
 # ======================
 print("===================================")
-print("   🏹 WELCOME TO THE CAVE QUEST 🐉  ")
+print("    WELCOME TO THE CAVE QUEST   ")
 print("===================================")
 print("A mysterious cave lies before you...")
 print("Legends say it holds strange creatures, hidden treasures,")
@@ -320,7 +320,7 @@ else:
 status_check()
 
 # Victory wrap-up
-print("\n🔥 The cavern is silent. The dragon is defeated!")
+print("\n The cavern is silent. The dragon is defeated!")
 print("Final Score:", score)
 exit()
 
